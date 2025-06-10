@@ -13,7 +13,7 @@ spec:
         app: petclinic
     spec:
       containers:
-        - name: boardgame
+        - name: petclinic
           image: youssef035/petclinic:latest
           imagePullPolicy: Always
           ports:
